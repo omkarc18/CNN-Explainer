@@ -1,3 +1,5 @@
-body {
-  display: none;
+#explainer-tool {
+  width: 800px; /* Adjust width as needed */
+  height: 600px; /* Adjust height as needed */
+  border: none; /* Remove border if desired */
 }
