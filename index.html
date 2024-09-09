@@ -1,24 +1,30 @@
-<link rel="stylesheet" href="custom.css">
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CNN Explainer Tool</title>
+  <title>Custom Display</title>
   <style>
+    /* Hide the entire body */
     body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
+      display: none;
     }
-    iframe {
-      width: 100vw;
-      height: 100vh;
-      border: none;
+
+    /* If you want to hide specific elements instead of the entire body */
+    /* 
+    .unwanted-element {
+      display: none;
     }
+    */
   </style>
 </head>
 <body>
-  <iframe src="https://poloclub.github.io/cnn-explainer/"></iframe>
+  <!-- Example content that will be hidden -->
+  <div class="unwanted-element">
+    This content will be hidden.
+  </div>
+  <div class="content">
+    <!-- Place the content you want to show or any dynamic content here -->
+  </div>
 </body>
 </html>
